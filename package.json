@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-server": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.0.3",
+    "csurf": "^1.9.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.0",
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.2.17",
+    "mysql2": "^1.6.1",
+    "nodemailer": "^4.6.8",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "pug": "^2.0.3",
+    "sequelize": "^5.0.0-beta.11"
+  },
+  "name": "bascart-using-nodejs-master",
+  "description": "BasCart is a web application that allows users to sell and buy products. It is built with a MongoDB database, EJS frontend, and Node.js backend. | Image 1 | Image 2 | | ------- | ------- | | ![Screenshot from 2023-05-28 11-42-03](https://github.com/Deepesh76780/BasCart-using-Nodejs/assets/99245631/44572a97-dcef-4b87-9f25-3bf6737b6029) | ![Screenshot from 2023-05-28 11-43-15](https://github.com/Deepesh76780/BasCart-using-Nodejs/assets/99245631/d6f68967-b485-4a38-b72e-48a449e5cfcd)| | Image 3 | Image 4 | | ![Screenshot from 2023-05-28 11-44-36](https://github.com/Deepesh76780/BasCart-using-Nodejs/assets/99245631/7a195565-4780-4063-8bee-870c334d74bb) | ![Screenshot from 2023-05-28 11-45-01](https://github.com/Deepesh76780/BasCart-using-Nodejs/assets/99245631/8674b206-1063-4841-b31a-a69b58186977) |",
+  "devDependencies": {},
+  "author": ""
+}
